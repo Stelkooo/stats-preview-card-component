@@ -343,4 +343,15 @@ template {
   padding: 0;
 }
 
+.card,
+.card-img {
+  max-width: 327px;
+}
+
+.card {
+  background: #1b1938;
+  box-shadow: 0px 20px 20px -10px rgba(24, 26, 42, 0.2);
+  border-radius: 8px;
+}
+
 /*# sourceMappingURL=styles.css.map */
