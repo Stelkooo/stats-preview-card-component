@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as *;
+
+.card {
+    &-heading {
+        font-family: $inter;
+        font-size: 1.75em;
+        color: $white;
+    }
+    &-heading-highlight {
+        color: $soft-violet;
+    }
+}

@@ -354,6 +354,16 @@ main {
   align-items: center;
 }
 
+.card-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 1.75em;
+  color: white;
+}
+
+.card-heading-highlight {
+  color: #aa5cdb;
+}
+
 .card,
 .card-img {
   max-width: 327px;
