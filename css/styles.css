@@ -354,4 +354,13 @@ template {
   border-radius: 8px;
 }
 
+.card-img {
+  height: 240px;
+  border-radius: 8px 8px 0 0;
+  background-image: url(../../images/image-header-mobile.jpg);
+  background-color: #aa5cdb;
+  background-blend-mode: multiply;
+  background-repeat: round;
+}
+
 /*# sourceMappingURL=styles.css.map */
