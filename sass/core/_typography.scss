@@ -1,12 +1,20 @@
 @use "../abstracts/variables" as *;
 
 .card {
-    &-heading {
+    &-heading,
+    &-desc {
         font-family: $inter;
-        font-size: 1.75em;
         color: $white;
     }
-    &-heading-highlight {
-        color: $soft-violet;
+    &-heading {
+        font-size: 1.75em;  
+        font-weight: 700;      
+        &-highlight {
+            color: $soft-violet;
+        }
+    }
+    &-desc {
+        font-size: 0.95em;
+        font-weight: 400;
     }
 }

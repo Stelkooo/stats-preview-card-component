@@ -354,14 +354,23 @@ main {
   align-items: center;
 }
 
-.card-heading {
+.card-heading, .card-desc {
   font-family: "Inter", sans-serif;
-  font-size: 1.75em;
   color: white;
+}
+
+.card-heading {
+  font-size: 1.75em;
+  font-weight: 700;
 }
 
 .card-heading-highlight {
   color: #aa5cdb;
+}
+
+.card-desc {
+  font-size: 0.95em;
+  font-weight: 400;
 }
 
 .card,
@@ -370,6 +379,7 @@ main {
 }
 
 .card {
+  padding: 0 1.6em;
   text-align: center;
   background: #1b1938;
   box-shadow: 0px 20px 20px -10px rgba(24, 26, 42, 0.2);
