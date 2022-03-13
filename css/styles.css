@@ -343,6 +343,10 @@ template {
   padding: 0;
 }
 
+body {
+  background-color: #090b1a;
+}
+
 main {
   height: 100vh;
   display: flex;

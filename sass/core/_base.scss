@@ -1,7 +1,13 @@
+@use "../abstracts/variables" as *;
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: $very-dark-blue;
 }
 
 main {
