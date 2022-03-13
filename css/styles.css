@@ -401,12 +401,8 @@ main {
   opacity: 0.6;
 }
 
-.card,
-.card-img {
-  max-width: 327px;
-}
-
 .card {
+  max-width: 327px;
   padding: 0 1.6em;
   text-align: center;
   background: #1b1938;
@@ -415,7 +411,9 @@ main {
 }
 
 .card-img {
+  width: 327px;
   height: 240px;
+  margin-left: -1.6em;
   border-radius: 8px 8px 0 0;
   background-image: url(../../images/image-header-mobile.jpg);
   background-color: #aa5cdb;
