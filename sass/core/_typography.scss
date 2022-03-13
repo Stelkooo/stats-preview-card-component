@@ -1,20 +1,49 @@
 @use "../abstracts/variables" as *;
 
+.card-heading,
+.card-desc,
+.stat-amount {
+    font-family: $inter;
+}
+
+.card-heading,
+.card-desc,
+.stat-amount,
+.stat-name {
+    color: $white;
+}
+
+.card-heading,
+.stat-amount {
+    font-weight: 700;
+}
+
+.card-desc,
+.stat-name {
+    font-weight: 400;
+}
+
 .card {
-    &-heading,
-    &-desc {
-        font-family: $inter;
-        color: $white;
-    }
     &-heading {
-        font-size: 1.75em;  
-        font-weight: 700;      
+        font-size: 1.75em;    
         &-highlight {
             color: $soft-violet;
         }
     }
     &-desc {
         font-size: 0.95em;
-        font-weight: 400;
+    }
+}
+
+.stat {
+    &-amount {
+        font-size: 1.5em;
+    }
+    &-name {
+        font-family: $lexend-deca;
+        font-size: .75em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        opacity: .6;
     }
 }
