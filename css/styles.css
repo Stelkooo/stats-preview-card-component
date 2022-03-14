@@ -431,4 +431,13 @@ main {
   margin-bottom: 0.5em;
 }
 
+@media (min-width: 1440px) {
+  .card {
+    max-width: 1110px;
+    max-height: 446px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

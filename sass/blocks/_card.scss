@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
 
 .card {
     max-width: 327px;
@@ -22,5 +23,13 @@
     margin: 1.9em 0;
     &-amount {
         margin-bottom: .5em;
+    }
+}
+@include desktop {
+    .card {
+        max-width: 1110px;
+        max-height: 446px;
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
