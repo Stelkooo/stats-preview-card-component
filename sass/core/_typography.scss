@@ -25,6 +25,7 @@
 
 .card {
     &-heading {
+        margin-top: 1.4em;
         font-size: 1.75em;    
         &-highlight {
             color: $soft-violet;
@@ -32,6 +33,7 @@
     }
     &-desc {
         font-size: 0.95em;
+        line-height: 25px;
     }
 }
 

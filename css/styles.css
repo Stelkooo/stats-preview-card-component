@@ -378,6 +378,7 @@ main {
 }
 
 .card-heading {
+  margin-top: 1.4em;
   font-size: 1.75em;
 }
 
@@ -387,6 +388,7 @@ main {
 
 .card-desc {
   font-size: 0.95em;
+  line-height: 25px;
 }
 
 .stat-amount {
@@ -422,7 +424,7 @@ main {
 }
 
 .stat {
-  margin: 2em 0;
+  margin: 1.9em 0;
 }
 
 .stat-amount {
