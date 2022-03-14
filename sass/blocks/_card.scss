@@ -30,12 +30,25 @@
         max-width: 1110px;
         max-height: 446px;
         padding: 0;
+        text-align: start;
         display: flex;
         flex-direction: row-reverse;
         &-img {
             width: 540px;
             height: 446px;
+            flex-shrink: 0;
             border-radius: 0 8px 8px 0;
         }
+        &-content {
+            padding: 4.45em 6em 4.5em 4.5em;
+        }
+    }
+    .stats {
+        margin-right: 3.2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    .stat {
+        margin: 0;
     }
 }
